@@ -7,6 +7,9 @@
   padding: 0;
   box-sizing: border-box;
 }
+li{
+    cursor: pointer;
+}
 
 body {
   font-family: 'Poppins', sans-serif;
@@ -32,6 +35,9 @@ header h1 {
   max-width: 500px;
   margin: 30px auto;
   padding: 20px;
+}
+.edit-mode{
+    color: #ccc;
 }
 
 /* Form & Input */
